@@ -12,7 +12,7 @@ function writeJson(fileName: string, context: any) {
 }
 
 ; (async () => {
-  const connection = new Connection('https://free.rpcpool.com')
+  const connection = new Connection('https://responsive-long-resonance.solana-mainnet.quiknode.pro/c2db99e37259cc0491f17a07e0ea88c38992bff4/')
 
   // fetch ido pools
   const accountsInfo = await getMultipleAccountsInfo(
